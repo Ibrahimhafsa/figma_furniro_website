@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Image from "next/image";
 import Link from 'next/link'
 import { HiOutlineTrophy } from 'react-icons/hi2'
 import { BsShieldCheck } from 'react-icons/bs'
@@ -12,14 +13,15 @@ const Cart = () => {
     <div>
     <div>
 
-    
-    <div>
+     <div>
       <div>
-      <img
-         src="/images/contactpic.jpg"
-         alt="banner"
-         className="w-full h-[328px] relative flex justify-center items-center blur-sm"
-       />
+      <Image
+    src="/images/contactpic.jpg"
+    alt="banner"
+    width={1920} 
+    height={328}
+    className="w-full h-[328px] relative flex justify-center items-center blur-sm"
+/>
        
        <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 -translate-y-20 max-sm:-translate-y-[340px] max-sm:scale-50">
          
@@ -75,9 +77,6 @@ const Cart = () => {
             </button>
             </Link>
 
-
-
-
           </div>
           </div>
         </div>
@@ -124,11 +123,6 @@ const Cart = () => {
     </div>
            </div>   
     </div>
-
-    
-
-
-
  
   )
 }

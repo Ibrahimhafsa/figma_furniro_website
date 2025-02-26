@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 
 const Browse = () => {
   return (
@@ -11,21 +13,39 @@ const Browse = () => {
       
       <div className="flex gap-3 max-md:flex-col max-md:gap-6 max-md:px-6">
         <div className="w-[381px] h-[480px] rounded-md flex justify-center items-center flex-col gap-5">
-          <img className="w-[381px] h-[480px]" src="/images/browse1.png" alt="Picture" />
+        <Image 
+  src="/images/browse1.png" 
+  alt="Picture"
+  width={381} 
+  height={480} 
+  className="w-[381px] h-[480px]" 
+/>
           
           <h1 className="font-semibold text-[#333333] text-2xl max-md:text-xl">
             Dining
           </h1>
         </div>
         <div className="w-[381px] h-[480px] rounded-md flex justify-center items-center flex-col gap-5">
-          <img className="w-[381px] h-[480px] " src="/images/browse2.png" alt="Picture" />
+        <Image
+              src="/images/browse2.png"
+              alt="Picture"
+              width={381}
+              height={480}
+              className="w-[381px] h-[480px]"
+            />
           
           <h1 className="font-semibold text-[#333333] text-2xl max-md:text-xl">
             Living
           </h1>
         </div>
         <div className="w-[381px] h-[480px] rounded-md flex justify-center items-center flex-col gap-5">
-          <img className="w-[381px] h-[480px]" src="/images/browse3.png" alt="Picture" />
+        <Image
+              src="/images/browse3.png"
+              alt="Picture"
+              width={381}
+              height={480}
+              className="w-[381px] h-[480px]"
+            />
           
           <h1 className="font-semibold text-[#333333] text-2xl max-md:text-xl">
             Bedroom

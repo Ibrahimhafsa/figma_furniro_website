@@ -1,11 +1,18 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <div>
       <div className="flex justify-start items-center relative pb-5 max-md:pb-0">
-        <img className="w-full h-[812px]" src="/images/herobg.png" alt="" 
+      <Image
+          src="/images/herobg.png" 
+          alt="Hero Background"
+          width={1920} 
+          height={812} 
+          className="w-full h-[812px]"
+          priority 
         />
         <div className="absolute top-48 right-0 bg-[#FFF3E3] rounded-[10px] w-[600px] h-[460px] max-md:w-[160px] max-md:h-[120px] flex flex-col justify-start items-start gap-10 max-md:gap-2 py-16 px-8 max-md:px-4 max-md:py-0 -translate-x-16 -translate-y-12 max-md:-translate-x-10 max-md:-translate-y-36 max-md:scale-110">
           <div className="flex flex-col gap-10 max-md:gap-[2px] ">

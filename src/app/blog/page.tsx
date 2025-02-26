@@ -11,11 +11,13 @@ const Blog = () => {
   return (
     <div>
       <div>
-      <img
-         src="/images/contactpic.jpg"
-         alt="banner"
-         className="w-full h-[328px] relative flex justify-center items-center blur-sm"
-       />
+      <Image
+        src="/images/contactpic.jpg"
+        alt="banner"
+        width={1920} 
+        height={328}
+        className="w-full h-[328px] relative flex justify-center items-center blur-sm"
+      />
        
        <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 -translate-y-20 max-sm:-translate-y-[340px] max-sm:scale-50">
          
@@ -111,7 +113,13 @@ const Blog = () => {
  
 <div className='mx-20'>
 <div className='  bg-white shadow-lg rounded-xl pt-8 w-[700px] w-[700px]"'>
-<div><img className='w-[700px] h-[380px]' src="/images/blogpic2.jpg" alt="" />
+<div><Image 
+  src="/images/blogpic2.jpg"
+  alt="Blog Post"
+  width={700}
+  height={380}
+  className="w-[700px] h-[380px]"
+/>
 <div className=" h-[245px] bg-white border-b w-[707px] pt-7 text-black">
 <h1 className="font-semibold text-[30px] max-sm:text-[18px] text-black pb-3">
         Going all-in with millennial design</h1>
@@ -131,10 +139,15 @@ const Blog = () => {
     </div>
 
     {/* Blog post 2 Section */}
- 
-<div className='mx-20'>
+ <div className='mx-20'>
 <div className='  bg-white shadow-lg rounded-xl pt-8 w-[700px] w-[700px]"'>
-<div><img className='w-[700px] h-[380px]' src="/images/blogpic3.jpg" alt="" />
+<div><Image 
+  src="/images/blogpic3.jpg"
+  alt="Blog Post"
+  width={700}
+  height={380}
+  className="w-[700px] h-[380px]"
+/>
 <div className=" h-[245px] bg-white border-b w-[707px] pt-7 text-black">
 <h1 className="font-semibold text-[30px] max-sm:text-[18px] text-black pb-3">
         Exploring new ways of Decorating</h1>
@@ -157,7 +170,13 @@ const Blog = () => {
  
 <div className='mx-20'>
 <div className='  bg-white shadow-lg rounded-xl pt-8 w-[700px] w-[700px]"'>
-<div><img className='w-[700px] h-[380px]' src="/images/blogpic4.jpg" alt="" />
+<div><Image 
+  src="/images/blogpic4.jpg"
+  alt="Blog Post"
+  width={700}
+  height={380}
+  className="w-[700px] h-[380px]"
+/>
 <div className=" h-[245px] bg-white border-b w-[707px] pt-7 text-black">
 <h1 className="font-semibold text-[30px] max-sm:text-[18px] text-black pb-3">
         Handmade pieces that took time to make</h1>
@@ -212,10 +231,6 @@ const Blog = () => {
           </div>
         </div>
         </div>
-        
-
-   
-
 
 </div>  
 </div>

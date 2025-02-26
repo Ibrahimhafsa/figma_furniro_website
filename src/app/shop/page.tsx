@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 import { IoFilter } from 'react-icons/io5'
 import { BiGridSmall } from 'react-icons/bi'
 import { AiOutlineBoxPlot } from 'react-icons/ai'
@@ -13,11 +14,13 @@ const Shop = () => {
     <div>
     <div>
         <div>
-      <img
-         src="/images/contactpic.jpg"
-         alt="banner"
-         className="w-full h-[328px] relative flex justify-center items-center blur-sm"
-       />
+      <Image
+              src="/images/contactpic.jpg"
+              alt="banner"
+              width={1920} 
+              height={328}
+              className="w-full h-[328px] relative flex justify-center items-center blur-sm"
+            />
        
        <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 -translate-y-20 max-sm:-translate-y-[340px] max-sm:scale-50">
          
@@ -55,28 +58,48 @@ const Shop = () => {
         <div className="grid md:grid-cols-4 sm:grid-cols-2  px-14 py-2 items-center scale-90 gap-10 max-sm:scale-100 max-sm:py-14 max-sm:px-7">
           {/*Raw 1*/}
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product1.jpg" alt="Services" />
+          <Image 
+          src="/images/product1.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Syltherine</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product2.jpg" alt="Services" />
+          <Image 
+          src="/images/product2.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Leviosa</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product3.jpg" alt="Services" />
+          <Image 
+          src="/images/product3.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Lolito</h3>
           <p className="text-gray-600 mx-3 ">Luxury Big sofa</p>
           <p className="text-lg font-bold mx-3">Rp 7.000.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product4.jpg" alt="Services" />
+          <Image 
+          src="/images/product4.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Respira</h3>
           <p className="text-gray-600 text-sm mx-3 ">Outdoor Table and Stool</p>
           <p className="text-lg font-bold mx-3">Rp 500.000</p>
@@ -84,28 +107,48 @@ const Shop = () => {
           
           {/* Raw 2*/}
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product1.jpg" alt="Services" />
+          <Image 
+          src="/images/product1.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Syltherine</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product2.jpg" alt="Services" />
+          <Image 
+          src="/images/product2.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Leviosa</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product3.jpg" alt="Services" />
+          <Image 
+          src="/images/product3.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Lolito</h3>
           <p className="text-gray-600 mx-3 ">Luxury Big sofa</p>
           <p className="text-lg font-bold mx-3">Rp 7.000.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product4.jpg" alt="Services" />
+          <Image 
+          src="/images/product4.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Respira</h3>
           <p className="text-gray-600 text-sm mx-3 ">Outdoor Table and Stool</p>
           <p className="text-lg font-bold mx-3">Rp 500.000</p>
@@ -113,28 +156,48 @@ const Shop = () => {
 
           {/* Raw 3*/}
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product1.jpg" alt="Services" />
+          <Image 
+          src="/images/product1.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Syltherine</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product2.jpg" alt="Services" />
+          <Image 
+          src="/images/product2.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Leviosa</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product3.jpg" alt="Services" />
+          <Image 
+          src="/images/product3.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Lolito</h3>
           <p className="text-gray-600 mx-3 ">Luxury Big sofa</p>
           <p className="text-lg font-bold mx-3">Rp 7.000.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product4.jpg" alt="Services" />
+          <Image 
+          src="/images/product4.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Respira</h3>
           <p className="text-gray-600 text-sm mx-3 ">Outdoor Table and Stool</p>
           <p className="text-lg font-bold mx-3">Rp 500.000</p>
@@ -142,28 +205,48 @@ const Shop = () => {
 
            {/* Raw 4*/}
            <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product1.jpg" alt="Services" />
+           <Image 
+          src="/images/product1.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Syltherine</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product2.jpg" alt="Services" />
+          <Image 
+          src="/images/product2.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Leviosa</h3>
           <p className="text-gray-600 mx-3 ">Stylish cafe chair</p>
           <p className="text-lg font-bold mx-3">Rp 2.500.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product3.jpg" alt="Services" />
+          <Image 
+          src="/images/product3.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Lolito</h3>
           <p className="text-gray-600 mx-3 ">Luxury Big sofa</p>
           <p className="text-lg font-bold mx-3">Rp 7.000.000</p>
           </div>
 
           <div className='w-[190px] h-[320px] bg-[#F4F5F7]'>
-          <img className='w-[190px] h-[220px]' src="/images/product4.jpg" alt="Services" />
+          <Image 
+          src="/images/product4.jpg"
+          alt="Services"
+          width={190} 
+          height={220}
+          className="w-[190px] h-[220px]"/>
           <h3 className="text-2xl mx-3 font-semibold mt-3">Respira</h3>
           <p className="text-gray-600 text-sm mx-3 ">Outdoor Table and Stool</p>
           <p className="text-lg font-bold mx-3">Rp 500.000</p>

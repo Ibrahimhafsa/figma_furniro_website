@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdWatchLater } from "react-icons/md";
@@ -12,12 +13,14 @@ const Contact = () => {
   return (
     <div>
       <div className="">
-        <img
-         
-          src="/images/contactpic.jpg"
-          alt="banner"
-          className="w-full h-[328px] min-h-[250px] md:h-[328px] relative flex justify-center items-center blur-sm"
+              <Image
+            src="/images/contactpic.jpg"
+            alt="banner"
+            width={1920} 
+            height={328}
+            className="w-full h-[328px] relative flex justify-center items-center blur-sm"
         />
+        
         
         <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 -translate-y-20 max-sm:-translate-y-[340px] max-sm:scale-50 ">
           <span className="font-medium">
